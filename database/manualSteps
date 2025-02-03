@@ -1,0 +1,35 @@
+Manual Steps for production deployment:
+
+Step 1:
+Create Schema : CREATE SCHEMA `vibhu_venture_partners`
+
+Step 2: 
+Create tables in sequence:
+1. MasterData
+2. Role 
+3. Create User table query
+4. then run UserRole table query //if userRole needed
+5. Run alter query from User.sql file
+6. Company
+7. BulletinBoard
+8. Document
+9. InterestSurvey
+10.InterestCapture
+11.InvestmentOpportunity
+12.UserInvestment 
+13.Payment
+14.StatusHistory
+15.Template 
+16.Email
+17.Notification
+18.ErrorLog
+//In future if we need:
+18.InvestmentDocument
+19.InvestmentProfile
+20.UserProfile
+
+Step 3:
+Insert data in this table:
+1. Role
+2. User
+3. MasterData

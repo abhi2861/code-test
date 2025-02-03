@@ -1,0 +1,21 @@
+CREATE TABLE `InterestSurvey` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `companyId` int NOT NULL,
+  `startDate` datetime DEFAULT NULL,
+  `endDate` datetime NOT NULL,
+  `investmentRange` varchar(255) DEFAULT NULL,
+  `createdBy` int NOT NULL,
+  `updatedBy` int DEFAULT NULL,
+  `active` tinyint(1) DEFAULT '1',
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `description` text,
+  `document` varchar(255) DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `companyId` (`companyId`),
+  KEY `createdBy` (`createdBy`),
+  CONSTRAINT `InterestSurvey_ibfk_1` FOREIGN KEY (`companyId`) REFERENCES `Company` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `InterestSurvey_ibfk_2` FOREIGN KEY (`createdBy`) REFERENCES `User` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

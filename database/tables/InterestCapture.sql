@@ -1,0 +1,23 @@
+CREATE TABLE `InterestCapture` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `interestSurveyId` int NOT NULL,
+  `userId` int NOT NULL,
+  `companyId` int NOT NULL,
+  `interestedYN` tinyint(1) DEFAULT '0',
+  `committedYN` tinyint(1) DEFAULT '0',
+  `amount` decimal(20,2) DEFAULT NULL,
+  `minimumInvestmentAmount` decimal(20,2) DEFAULT NULL,
+  `initialInterestShownDate` datetime DEFAULT NULL,
+  `createdBy` int NOT NULL,
+  `active` tinyint(1) DEFAULT '1',
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL,
+  `contactedYN` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `interestSurveyId` (`interestSurveyId`),
+  KEY `userId` (`userId`),
+  KEY `companyId` (`companyId`),
+  CONSTRAINT `InterestCapture_ibfk_1` FOREIGN KEY (`interestSurveyId`) REFERENCES `InterestSurvey` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `InterestCapture_ibfk_2` FOREIGN KEY (`userId`) REFERENCES `User` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `InterestCapture_ibfk_3` FOREIGN KEY (`companyId`) REFERENCES `Company` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

@@ -1,0 +1,12 @@
+.footerWrapper {
+    background-color: #001061;
+    height: 8vh; 
+    color: white;
+    // margin-top: 20px;
+}
+
+@media  screen and (max-width: 767px) {
+    .footerWrapper p{
+        font-size: 12px !important;
+    }
+}

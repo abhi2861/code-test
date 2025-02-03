@@ -1,0 +1,199 @@
+.opportunity-list-item {
+    padding: 25px 0 20px 0;
+    margin-bottom: 0px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.25);
+
+    .company-logo img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.inv-opportunity-details .company-logo {
+    margin: 0 30px 0 0;
+    // min-width: 20%;
+    max-width: 15%;
+    min-height: 15%;
+    flex: 1 20%;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.opportunity-name-div {
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.inv-opportunity-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+
+
+    .inv-opportunity-details>div {
+        flex: 1;
+    }
+}
+
+.opportunity-list-wrapper {
+
+    .no-data-available {
+        border: 1px solid #D9D9D9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        border-radius: 8px;
+    }
+}
+
+.inv-download-prospectus {
+    margin: 15px 0 0 0;
+}
+
+button[class*=Mui-disabled] {
+    color: #000 !important;
+    background: #EBEBE4 !important;
+}
+
+.applied-investment-sticker {
+    background-color: green;
+    color: white;
+    position: absolute;
+    transform: rotate(331deg);
+    left: -15px;
+    top: 5px;
+    width: 74px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.opportunity-content-wrapper {
+    display: flex;
+    align-items: center;
+
+
+    .opportunity-content {
+        margin: 15px 15px 5px 0;
+    }
+
+    >.opportunity-content {
+        min-width: 33%;
+    }
+}
+
+.opportunity-content-apply {
+    display: flex;
+    margin: 4px 0 0 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 95px;
+
+    .minimum-amt-value {
+        margin-top: 28px;
+    }
+
+    .opportunity-content {
+
+        .default-tab-button {
+            padding: 10px 26px;
+            width: auto;
+            min-width: auto;
+            margin: 0px 1px 0 0;
+            border-radius: 0px !important;
+            min-height: auto;
+            margin-right: 30px;
+            font-size: 16px;
+        }
+
+        div.Mui-error {
+            margin-bottom: 40px;
+        }
+
+        .MuiFormHelperText-root.Mui-error {
+            position: absolute;
+            top: 48px;
+            min-width: 228px;
+
+        }
+    }
+}
+
+
+.about-inv-company p {
+    max-width: 1025px;
+}
+
+@media screen and (max-width: 1199px) {
+    .leftSideDetail{
+        max-width: 500px;
+         .about-inv-company{
+            .opportunity-content-apply{
+                justify-content: start;
+            }
+            .opportunity-content-wrapper{
+                flex-wrap: wrap;
+                .opportunity-content{
+                    display: flex;
+                    align-items: start;
+                    height: fit-content;
+                    .d-inline-block{
+                        height: auto;
+                    }
+                }
+            }
+         }
+         
+    }
+
+    .inv-opportunity-details .company-logo {
+        margin: 0 25px 0 0;
+        min-width: 200px;
+        max-width: 25%;
+        height: 200px;
+        min-height: 15%;
+        flex: 1 20%;
+        overflow: hidden;
+        padding: 6px;
+
+        img{
+            height: 190px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .opportunity-list-item {
+        padding: 15px 0 20px 0;
+    }
+    .inv-opportunity-details{
+        padding: 0%;
+        .companyData{
+            flex-direction: column;
+            .company-logo{
+                width: 100%;
+                max-width: 100%;
+                max-height: 220px;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .opportunity-content-wrapper{
+        justify-content: space-between;
+    }
+    .opportunity-content:nth-child(2n){
+        margin-right: 0 !important;
+    }
+    .opportunity-content-apply{
+        padding: 0;
+    }
+    .about-inv-company p {
+        max-width: 100%;
+    }
+}

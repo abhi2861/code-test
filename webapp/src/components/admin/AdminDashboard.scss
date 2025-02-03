@@ -1,0 +1,1097 @@
+.info-widget-tabs .MuiTabs-flexContainer>button {
+    flex: 1 calc(25% - 30px);
+    border: 1.5px solid rgb(0 16 97 / 27%);
+    border-radius: 10px;
+    margin: 0 30px 0 0;
+    max-width: 100%;
+    font-size: 16.5px;
+}
+
+.info-widget-tabs .MuiTabs-flexContainer>button:last-child {
+    margin: 0;
+}
+
+.info-widget-tabs .MuiTabs-root {
+    margin: 0 0 35px 0;
+}
+
+.info-widget-tabs .Mui-selected .infoWidgetLabel {
+    font-weight: 600;
+}
+
+.create-company-action {
+    margin: 10px 0 0px 0;
+}
+
+.create-company-action button {
+    margin: 0 15px 0 0;
+}
+
+.create-bulletin-wrapper .post-bulletin-content .text-area-bulletin {
+    padding: 0;
+}
+
+
+.create-bulletin-wrapper .select-bulletin-type {
+    min-width: 275px;
+    max-width: 275px;
+    margin: 10px 0 0 0;
+}
+
+.company-details-wrapper .company-info img {
+    margin: 0 7px 0 0;
+}
+
+.display-company-logo {
+    // min-width: 250px;
+    // max-width: 250px;
+    // min-height: 250px;
+    // max-height: 250px;
+    // border: 1px solid #D9D9D9;
+    // border-radius: 200px;
+}
+
+.display-company-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.upload-company-logo {
+    position: relative;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    border: 1px solid #D9D9D9;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -2px 0px 0 0;
+    overflow: hidden;
+}
+
+.remove-logo {
+    position: absolute;
+    right: -3px;
+    bottom: 27px;
+}
+
+.upload-logo {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 4px 0 0 0;
+}
+
+.upload-logo img {
+    display: block;
+    height: 13px;
+    margin: 0 5px 0px auto;
+}
+
+.upload-logo .upload-action-btn {
+    padding: 3px 6px;
+}
+
+.upload-logo .upload-white {
+    display: none;
+}
+
+.upload-logo .upload-action-btn:hover .upload-grey {
+    display: none;
+}
+
+.upload-logo .upload-action-btn:hover .upload-white {
+    display: inline-block;
+}
+
+.remove-logo .upload-action-btn {
+    padding: 0;
+    border-radius: 30px;
+    min-width: auto !important;
+    background-color: white !important;
+    width: 22px;
+    height: 22px;
+}
+
+.remove-logo .upload-action-btn img {
+    width: 100%;
+}
+
+.upload-company-profile {
+    max-width: 100% !important;
+}
+
+.upload-company-profile .upload-file-wrap {
+    min-width: 318px;
+    max-width: 318px;
+}
+
+.company-name-field {
+    flex-grow: 1 !important;
+    max-width: unset !important;
+    flex: 1 !important;
+    margin: 0 0 15px 0 !important;
+}
+
+.company-name-field label~div {
+    min-width: 350px;
+}
+
+.company-details-row {
+    margin: 0 20px 0px 0;
+    display: flex;
+    align-items: flex-start;
+    // flex: 1 50%;
+    // max-width: 50%;
+    flex-direction: column;
+}
+
+
+.about-us-company textarea {
+    height: unset !important;
+    min-height: 105px;
+}
+
+.about-us-company label {
+    background-color: white;
+    padding: 0 7px 0 0px;
+}
+
+.view-doc {
+    width: 20px !important;
+    margin: 0 0 0 0px;
+}
+
+/* Company table css here */
+.company-info img {
+    min-width: 45px;
+    width: 45px;
+    min-height: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #ccc;
+
+}
+
+// .company-info b {
+//     font-size: 14px;
+// }
+
+// FMV TABLE Columns
+.fair-market-table {
+    min-width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+
+    .default-table td:last-child, .default-table th:last-child {
+        padding-left: 45px;
+    }
+}
+
+.fair-market-table .company-in-table {
+    width: 12vw;
+}
+
+.fair-market-table .company-in-table .company-info {
+    max-width: 80%;
+}
+
+.fair-market-table .fmv-in-table {
+    width: 14vw;
+    padding-right: 105px;
+    
+    input {
+        text-align: right;
+    }
+
+    
+}
+
+.fair-market-table .active-filters-row {
+    input {
+        text-align: left;
+    }
+}
+
+.fair-market-table .previous-update-in-table {
+    width: 24vw;
+}
+
+.fair-market-table .previous-fmv-in-table {
+    width: 22vw;
+}
+
+.fair-market-table .edit-actions button {
+    padding: 5px;
+}
+
+// Company Details - ADMIN Dashboard
+.company-details-wrapper .company-name-in-table {
+    width: 36vw;
+}
+
+// .company-details-wrapper .people-invested-in-table {
+//     width: 22vw;
+// }
+
+.company-details-wrapper .funds-raised-in-table {
+    width: 21vw;
+}
+
+.company-details-wrapper .fmv-in-table {
+    width: 17vw;
+}
+
+// User Details - ADMIN Dashboard
+.user-details-wrapper {
+    .user-name-in-table {
+        width: 28vw;
+    }
+
+    .number-of-inv-in-table {
+        width: 16vw;
+    }
+
+    .funds-raised-in-table {
+        width: 16vw;
+    }
+
+    .last-login-in-table {
+        width: 22vw;
+    }
+
+    .admins-user-table {
+        .company-in-table {
+            width: 40vw;
+        }
+
+        .admins-user-table .investment-name-in-table {
+            width: 40vw;
+        }
+
+        .admins-user-table .current-amount-in-table {
+            width: 20vw;
+        }
+    }
+}
+
+.company-details-admin-table .investment-name-in-table {
+    max-width: 24vw !important;
+}
+
+.company-details-admin-table .name-in-table {
+    width: 22vw;
+}
+
+.company-details-admin-table .current-amount-in-table {
+    width: 15vw !important;
+}
+
+.company-details-admin-table .invested-amount-in-table {
+    width: 15vw !important;
+}
+
+.survey-details-wrapper {
+    min-height: calc(100vh - 73px);
+
+    .company-name-in-table {
+        width: 20vw;
+    }
+
+    .amount-in-table {
+        width: 13vw;
+    }
+
+    .date-in-table {
+        width: 18.5vw;
+    }
+
+    .status-in-table {
+        width: 18.5vw !important;
+        text-align: center !important;
+    }
+}
+
+.survey-details-wrapper .line-clamp-1 {
+    min-width: 98%;
+    max-width: 98%;
+}
+
+.IOpportunityMain {
+    margin-bottom: 30px;
+}
+
+.admin.investment-opportunity-wrapper .tab-list {
+    // margin-bottom: 25px !important;
+}
+
+.info-widget-cards {
+    min-height: 140px !important;
+    img {
+        // width: 60px;
+        margin: 0 13px 0 0;
+    }
+    .infoWidgetLabel {
+        font-size: 20px;
+    }
+
+    .infoWidgetValue {
+        margin-top: 15px !important;
+        margin-bottom: 0 !important;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.active-application-wrapper {
+
+    .status-in-table {
+        width: 12vw;
+    }
+
+    .opportunity-name-in-table {
+        width: 19vw;
+    }
+
+    .application-date-in-table {
+        width: 12vw;
+    }
+
+    .applicant-name-in-table {
+        width: 17vw;
+    }
+
+    .company-name-in-table {
+        width: 13vw;
+    }
+
+    .people-invested-in-table {
+        width: 11vw;
+    }
+}
+
+.company-details-admin {
+    .company-name-in-table {
+        width: 23vw;
+    }
+
+    .people-invested-in-table {
+        width: 19.5vw;
+    }
+
+    .funds-raised-in-table {
+        width: 20vw;
+    }
+
+    .fmv-in-table {
+        width: 20vw;
+    }
+}
+
+.investment-opportunity-wrapper {
+    .company-name-in-table {
+        width: 20vw
+    }
+    .investment-name-in-table{
+        width: 20vw
+    }
+    .people-invested-in-table{
+        width: 20vw
+    }
+
+    .innerTable {
+        .name-in-table {
+            width: 20vw !important;
+        }
+
+        .amount-in-table {
+            width: 20vw !important;
+        }
+
+        .current-month-in-table {
+            width: 20vw !important;
+        }
+    }
+}
+
+.innerTable th,
+.innerTable td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.innerTable tr:last-child{
+    // background-color: red;  
+    border: 0;
+}
+
+.completed-inv-opp-actions {
+    display: none;
+}
+
+.text-field-bulletin {
+    margin: 15px 0 0 0 !important;
+}
+
+.survey-details-wrapper{
+    .select-template{
+        min-width: 300px !important;
+    }
+}
+
+@media(max-width: 1700px) {
+   
+}
+
+@media(max-width: 1400px) {
+    .info-widget-cards {
+        .infoWidgetLabel {
+            font-size: 17px;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .create-company-action{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us-company{
+        width: 60%;
+    }
+    .createCompanyForm .about-us-company {
+        width: 100%;
+    }
+
+    .user-dashboard-container, .user-dashboard-content .left-panel {
+        max-width: 100%;
+    }
+
+    .investment-status-records .investment-progress-details {
+        margin: 0 0 40px 0;
+        min-width: 1200px;
+    }
+
+    .right-panel-wrapper {
+        min-width: 40vw;
+        max-width: 40vw;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .right-panel-wrapper {
+        min-width: 50vw;
+        max-width: 50vw;
+    }
+    .react-table-title h4{
+        font-size: 16px;
+    }
+    .fair-market-table{
+        min-width: 100%;
+    }
+    .createCompanyinputs{
+        margin-left: 30px;
+    }
+    .create-company-action{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .admin-top-widget .MuiTabs-flexContainer>button {
+        display: flex;
+        border: 1.5px solid rgb(0 16 97 / 27%);
+        border-radius: 10px;
+        margin: 0;
+        max-width: 100%;
+        flex: 1 80px !important;
+        min-width: 80px;
+        justify-content: center;
+        img{
+            margin-right: 0;
+            height: 50px;
+        }
+
+        // p{
+        //     // transform: translate(-200px);
+        //     // display: none;
+        //     transition: 0.5s ease-in-out;
+        // }
+    }
+    .admin-top-widget .MuiTabs-flexContainer{
+        // flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    .fair-market-table .edit-actions {
+        justify-content: center;
+    }
+    .fair-market-table .fmv-in-table {
+        input {
+            height: 14px;
+        }
+      
+    }
+    .active-application-wrapper {
+        th{
+            font-size: 16px;
+        }
+
+        .status-in-table {
+            min-width: 20vw;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    
+        .opportunity-name-in-table {
+            min-width: 35vw;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    
+        .application-date-in-table {
+            min-width: 20vw;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    
+        .applicant-name-in-table {
+            min-width: 25vw;
+            padding-right: 0;
+        }
+    
+        .company-name-in-table {
+            min-width: 12vw;
+            // padding-right: 0;
+            // padding-left: 0;
+        }
+    
+        .people-invested-in-table {
+            min-width: 20vw;
+            // padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .company-details-admin {
+        th{
+            font-size: 16px;
+        }
+        .company-name-in-table {
+                min-width: 25vw;
+                padding-right: 0;
+                padding-left: 10px;
+            }
+        
+            .people-invested-in-table {
+                min-width: 25vw;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        
+            .funds-raised-in-table {
+                min-width: 20vw;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        
+            .fmv-in-table {
+                min-width: 25vw;
+                // padding-right: 0;
+                padding-left: 0;
+            }
+        }
+
+        .investment-opportunity-wrapper {
+            .company-name-in-table {
+                min-width: 30vw
+            }
+            .investment-name-in-table{
+                min-width: 35vw
+            }
+            .people-invested-in-table{
+                min-width: 25vw
+            }
+        
+            .innerTable {
+                .name-in-table {
+                    min-width: 20vw !important;
+                }
+        
+                .amount-in-table {
+                    min-width: 20vw !important;
+                }
+        
+                .current-month-in-table {
+                    min-width: 20vw !important;
+                }
+            }
+        }
+        .user-details-wrapper {
+            th{
+                font-size: 16px;
+            }
+            .user-name-in-table {
+                min-width: 25vw;
+            }
+        
+            .number-of-inv-in-table {
+                min-width: 25vw;
+            }
+        
+            .funds-raised-in-table {
+                min-width: 25vw;
+            }
+        
+            .last-login-in-table {
+                min-width: 25vw;
+            }
+        
+            .admins-user-table {
+                .company-in-table {
+                    min-width: 40vw;
+                }
+        
+                .admins-user-table .investment-name-in-table {
+                    min-width: 40vw;
+                }
+        
+                .admins-user-table .current-amount-in-table {
+                    min-width: 20vw;
+                }
+            }
+        }
+
+        .info-widget-cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            img{
+                // transform: translateX(40px);
+                transition: 0.5s;
+            }
+            .infoWidgetLabel{
+                min-width: 80px;
+                max-width: 70px;
+                font-size: 14px;
+                // transform: translateX(-200px);
+                transition: 0.5s;
+            }
+        }
+
+        .info-widget-cards{
+            img{
+                // transform: translateX(200px);
+            }
+            .infoWidgetLabel{
+                // transform: translateX(-25px);
+                display: none;
+            }
+        }
+}
+
+@media  screen and (max-width: 767px){
+    .right-panel-wrapper {
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+    .create-bulletins-wrapper {
+        margin-bottom: 30px !important;
+    }
+    .create-bulletins-wrapper h3,
+    .CInvestmentOpportunityForm h3 {
+        font-size: 16px !important;
+        margin-bottom: 18px !important;
+    }
+    .company-details-row{
+        margin-right: 0 !important;
+    }
+    .company-name-field label~div {
+        min-width: 100%;
+    }
+    .container {
+        padding: 0px 10px !important;
+        max-width: 100%;
+
+        .left-panel{
+            max-width: 100%;
+        }
+    }
+    .default-react-select label{
+        font-size: 12px !important;
+        left: 6px;
+    }
+    .upload-company-profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .error-text{
+        // text-align: center;
+    }
+    .upload-company-profile .upload-file-wrap {
+        min-width: 0px;
+        // max-width: 250px;
+        flex-direction: column;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        gap: 8px;
+        .upload-file-text{
+            margin: 0;
+            p{
+                text-align: center;
+            }
+            small{
+                text-align: center;
+            }
+        }
+    }
+
+    .company-details-admin{
+        .info-widget-cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            img{
+                transform: translateX(40px);
+                transition: 0.5s;
+            }
+            .infoWidgetLabel{
+                min-width: 80px;
+                font-size: 14px;
+                transform: translateX(-200px);
+                transition: 0.5s;
+            }
+        }
+    }
+    .info-widget-cards {
+        min-height: auto !important;
+        color: red;
+        img {
+            // width: 60px;
+            margin: 0 10px 0 0;
+        }
+        .infoWidgetLabel {
+            font-size: 16px;
+        }
+    
+        .infoWidgetValue {
+            margin-top: 15px !important;
+            margin-bottom: 0 !important;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    .admin-top-widget .MuiTabs-flexContainer>button {
+        display: flex;
+        border: 1.5px solid rgb(0 16 97 / 27%);
+        border-radius: 10px;
+        margin: 0;
+        max-width: 100%;
+        flex: 1 80px !important;
+        min-width: 80px;
+        justify-content: center;
+        img{
+            margin-right: 0;
+            height: 25px;
+        }
+
+        p{
+            // display: none;
+            // transform: translate(-200px);
+            transition: 0.5s ease-in-out;
+        }
+    }
+    .admin-top-widget .MuiTabs-flexContainer{
+        // flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    .admin-dashboard-wrapper{
+        padding: 0 20px;
+    }
+
+    .IOpportunityMain{
+        width: 100%;
+    }
+    .CInvestmentOpportunityForm{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .css-pl8gqh-MuiStack-root{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .fair-market-table .edit-actions {
+        justify-content: center;
+    }
+    .fair-market-table .fmv-in-table {
+        padding-right: 25px !important;
+        input {
+            height: 14px;
+        }
+    }
+    .company-details-row .MuiGrid-item{
+        flex-direction: column;
+        align-items: center !important;
+        flex: 1 100%;
+        min-width: 100%;
+    }
+
+    .createCompanyinputs {
+        margin-left: 0px;
+    }
+
+    .createCompanyForm .about-us-company {
+        width: 100% !important;
+    }
+
+    .createCompanyinputs {
+        margin: 35px 0 0 0;
+        min-width: 100%;
+    }
+
+    .active-application-wrapper {
+
+        .status-in-table {
+            min-width: 45vw;
+        }
+    
+        .opportunity-name-in-table {
+            min-width: 50vw;
+        }
+    
+        .application-date-in-table {
+            min-width: 40vw;
+        }
+    
+        .applicant-name-in-table {
+            min-width: 35vw;
+        }
+    
+        .company-name-in-table {
+            min-width: 35vw;
+        }
+    
+        .people-invested-in-table {
+            min-width: 25vw;
+        }
+    }
+    .modal-paper{
+        max-width: 400px;
+    }
+    .surveyTable {
+        max-width: 90%;
+        margin-top: 70px !important;
+        position: relative;
+        .react-table-filters {
+            position: absolute;
+            right: 0;
+            top: -42px;
+            input {
+                min-width: 200px;
+            }
+        }
+    }    
+
+    .fair-market-table {
+        min-width: 60%;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+    
+        .default-table td:last-child, .default-table th:last-child {
+            padding-left: 0px;
+        }
+    }
+    
+    .fair-market-table .company-in-table {
+        min-width: 50vw;
+    }
+    
+    .fair-market-table .company-in-table .company-info {
+        max-width: 100%;
+    }
+    
+    .fair-market-table .fmv-in-table {
+        min-width: 40vw;
+        
+        input {
+            text-align: center;
+        }
+    
+        
+    }
+    
+    .fair-market-table .active-filters-row {
+        input {
+            text-align: center;
+
+        }
+    }
+    
+    .fair-market-table .previous-update-in-table {
+        min-width: 24vw;
+    }
+    
+    .fair-market-table .previous-fmv-in-table {
+        min-width: 22vw;
+    }
+    
+    .fair-market-table .edit-actions button {
+        padding: 5px;
+    }
+
+    .fair-market-table .react-table-filters {
+        position: absolute;
+        top: -41px;
+        right: 0;
+        input {
+            min-width: 200px;
+        }
+    }
+
+    .company-details-admin {
+        th{
+            font-size: 16px;
+        }
+        .company-name-in-table {
+                min-width: 50vw;
+                padding-left: 10px;
+            }
+        
+            .people-invested-in-table {
+                min-width: 40vw;
+            }
+        
+            .funds-raised-in-table {
+                min-width: 30vw;
+            }
+        
+            .fmv-in-table {
+                min-width: 40vw;
+            }
+        }
+    .investment-opportunity-wrapper {
+        .company-name-in-table {
+            min-width: 50vw
+        }
+        .investment-name-in-table{
+            min-width: 50vw
+        }
+        .people-invested-in-table{
+            min-width: 50vw
+        }
+    
+        .innerTable {
+            .name-in-table {
+                min-width: 20vw !important;
+            }
+    
+            .amount-in-table {
+                min-width: 20vw !important;
+            }
+    
+            .current-month-in-table {
+                min-width: 20vw !important;
+            }
+        }
+    }
+
+    .user-details-wrapper {
+        th{
+            font-size: 16px;
+        }
+        .user-name-in-table {
+            min-width: 45vw;
+        }
+    
+        .number-of-inv-in-table {
+            min-width: 40vw;
+        }
+    
+        .funds-raised-in-table {
+            min-width: 30vw;
+        }
+    
+        .last-login-in-table {
+            min-width: 30vw;
+        }
+    
+        .admins-user-table {
+            .company-in-table {
+                min-width: 40vw;
+            }
+    
+            .admins-user-table .investment-name-in-table {
+                min-width: 40vw;
+            }
+    
+            .admins-user-table .current-amount-in-table {
+                min-width: 20vw;
+            }
+        }
+    }
+    .survey-details-wrapper{
+        .select-template{
+            max-width: unset;
+            flex: 1;
+        }
+    }
+
+    .create-bulletin-fields {
+        flex-wrap: wrap;
+    }
+
+    .create-bulletin-fields>div {
+        min-width: 100%;
+        max-width: 100%;
+        flex: 1 100%;
+        margin: 0 0 25px 0 !important;
+    }
+
+    .text-field-bulletin {
+        margin: 0 0 0 0 !important;
+    }
+}
+
+
+
+
+
+// // ------- special ----------- // //
+
+@media screen and (width < 650px) {
+
+    .admin-top-widget .MuiTabs-flexContainer>button {
+
+        .infoWidgetLabel {
+            font-size: 14px !important;
+            // transform: translate(-200px);
+            // display: none;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}

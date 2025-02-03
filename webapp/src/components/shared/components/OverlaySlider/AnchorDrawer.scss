@@ -1,0 +1,35 @@
+.close-drawer {
+    position: absolute !important;
+    top: 6px !important;
+    right: 0px !important;
+    cursor: pointer;
+    color: white !important;
+}
+
+.side-nav-icon {
+    width: 20px;
+}
+
+.anchor-drawer-wrapper {
+    padding: 27px 20px 10px 10px;
+}
+
+.side-nav-btn {
+    margin: 0 0 32px 0 !important;
+    position: relative;
+
+    .count-badge {
+        background-color: rgba(255, 0, 0, 0.653);
+        color: white;
+        font-weight: 600;
+        position: absolute;
+        top: -14px;
+        right: -16px;
+        border-radius: 20px;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        line-height: 22px;
+        font-size: 11px;
+    }
+}

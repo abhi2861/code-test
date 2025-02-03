@@ -1,0 +1,21 @@
+CREATE TABLE `Document` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `userId` int DEFAULT NULL,
+  `folder_0` varchar(255) DEFAULT NULL,
+  `docLink` varchar(255) DEFAULT NULL,
+  `uploadedBy` int DEFAULT NULL,
+  `uploadedDate` datetime DEFAULT NULL,
+  `active` tinyint(1) DEFAULT '1',
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL,
+  `fileName` varchar(255) DEFAULT NULL,
+  `updatedBy` int DEFAULT NULL,
+  `folder_1` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `Document_ibfk_1` (`userId`),
+  KEY `Document_ibfk_2` (`uploadedBy`),
+  KEY `Document_ibfk_3` (`updatedBy`),
+  CONSTRAINT `Document_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `User` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `Document_ibfk_2` FOREIGN KEY (`uploadedBy`) REFERENCES `User` (`id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `Document_ibfk_3` FOREIGN KEY (`updatedBy`) REFERENCES `User` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

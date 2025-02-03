@@ -1,0 +1,1027 @@
+.MuiGrid-item {
+  padding: 0 !important;
+}
+
+.investment-status-records > div {
+  margin: 0 0 15px 0;
+  padding: 10px 20px;
+}
+
+.investment-status-records > div:last-child {
+  margin: 0;
+}
+
+.investment-status-records .investment-details {
+  margin: 0 0 5px 0 !important;
+}
+
+.investment-status-wrap {
+  margin: 0 0 20px 0;
+}
+
+.progess-bar-wrapper {
+  position: relative;
+  margin: 6px 0 0 0;
+}
+
+.progess-bar-wrapper .progress-bar-segments {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progess-bar-wrapper .progress-bar-segments span {
+  border-right: 1px solid #f2f4f7;
+  flex: 1 11.11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 14.28%;
+  max-width: 14.28%;
+}
+
+.progress-status-label {
+  display: flex;
+  align-items: flex-start;
+  margin: 6px 0 0 0;
+}
+
+.progress-status-label span {
+  flex: 1 11.11%;
+  font-size: 16px;
+  width: 14.28%;
+  max-width: 14.28%;
+  text-align: center;
+}
+
+.progess-bar-wrapper .progress-bar-segments span:last-child,
+.progess-bar-wrapper .tooltips-data.progress-bar-segments span {
+  border: 0;
+}
+
+.user-dashboard-wrapper .heading-section .infoWidgetLabel {
+  margin: 0 0px 0 5px;
+}
+
+.notification-ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-dashboard-wrapper .alert-snack-bar {
+  position: static;
+  z-index: 99;
+}
+
+.user-dashboard-wrapper .alert-snack-bar > div {
+  flex: 1 100%;
+  background-color: #001061;
+  border-radius: 0;
+  box-shadow: 0px 3px 4px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.company-in-table {
+  width: 195px;
+}
+
+.user-dashboard-wrapper .alert-snack-bar .MuiSnackbarContent-message {
+  flex-grow: 1;
+}
+
+.user-dashboard-content {
+  display: flex;
+  position: relative;
+
+  .heading-section {
+    padding: 25px 0;
+  }
+}
+
+.user-dashboard-content .left-panel {
+  flex: 1;
+}
+
+.user-dashboard-content {
+  .welcome-text {
+    margin: 0;
+    font-size: 22px;
+  }
+}
+
+.right-panel > div {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.survey-card {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.14);
+  padding: 5px 8px;
+  border-radius: 10px;
+  margin: 0 0 15px 0;
+
+  .survey-name {
+    margin: 0 10px 0 0;
+    width: auto;
+
+    .info-icon {
+      width: 18px;
+      margin: 0 0 0 3px;
+    }
+  }
+}
+
+.right-panel-wrapper {
+  min-width: 28vw;
+  max-width: 28vw;
+}
+
+.survey-logo {
+  margin: 0 7px 0 0;
+}
+
+.survey-card .survey-logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.survey-fields {
+  display: flex;
+  margin-left: 47px;
+}
+
+.survey-fields > div {
+  // flex: 1 33%;
+  // max-width: 33%;
+  margin: 0 0 10px 0;
+}
+
+.survey-fields small {
+  margin: 0 0 5px 0;
+}
+
+.survey-fields small,
+.survey-fields p {
+  font-size: 16px;
+}
+
+.panel-category-header {
+  background-color: #001061;
+  padding: 16.5px 15px;
+  color: white;
+}
+
+.survey-card .default-btn {
+  min-width: 62px;
+  height: auto;
+  min-height: auto;
+  line-height: normal;
+  padding: 5px 0;
+  font-size: 14px;
+  margin: 0 0 0px 0;
+}
+
+.right-panel-scroll {
+  max-height: calc(100vh - 64px);
+  overflow: auto;
+  padding: 15px;
+  position: relative;
+
+  > .MuiBackdrop-root {
+    position: absolute;
+  }
+}
+
+.inner-table-header {
+  padding-bottom: 10px;
+}
+
+.user-dashboard-inv-header .header .investment-in-table {
+  margin: 0 25px 0 0px;
+}
+
+.inner-table-header > div {
+  font-weight: 700;
+  font-size: 18px;
+  height: 50px;
+}
+
+.inner-table-content {
+  height: 70px;
+}
+
+.user-dashboard-inv-header {
+  .investment-in-table,
+  .company-details-col {
+    width: 25vw;
+    padding: 8px 15px;
+  }
+
+  .amount-in-table {
+    width: 20vw;
+    padding: 8px 15px;
+    flex: 1;
+    text-align: right;
+    padding-right: 130px;
+  }
+
+  .current-amt-in-table {
+    width: 20vw;
+    padding: 8px 15px;
+    flex: 1;
+    text-align: right;
+    padding-right: 130px;
+  }
+
+  .requested-data-in-table {
+    width: 18vw;
+  }
+}
+
+.investment-status-records {
+  .investment-progress-details {
+    margin: 0 0 40px 0;
+  }
+}
+
+.investment-progress-details-subcontaint .investment-progress-values {
+  width: 38%;
+  max-width: 38%;
+  flex: 1 1 38%;
+  margin: 0 10px 0 0;
+}
+
+.investment-status-records {
+  height: 375px;
+  overflow: auto;
+}
+
+.progress-bar-segments.no-records {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investment-progress-values .company-logo .logo {
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.company-name {
+  .investment-name-progress-name {
+    width: 518px;
+  }
+}
+
+.inv-opportunity-details {
+  .company-name {
+    font-size: 20px;
+  }
+
+  .opportunity-name-div b {
+    font-size: 18px;
+  }
+
+  .about-inv-company p {
+    font-size: 16px;
+  }
+}
+
+.user-dashboard-inv-header {
+  display: flex;
+  align-items: center;
+  // border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
+  margin: 0 0 0px 0;
+  flex-wrap: wrap;
+
+  .toggle-arrow {
+    margin: 0px 10px 0 0px;
+    cursor: pointer;
+
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .company-info-in-table {
+    flex: 1;
+  }
+
+  // .total-inv-amt {
+  //     padding: 0 50px 0 100px;
+  //     border-right: 1px solid rgba(0, 0, 0, 0.12);
+  // }
+
+  // .total-current-amt {
+  //     padding: 0 0px 0 50px;
+  // }
+
+  .total-inv-amt b,
+  .total-current-amt b {
+    font-size: 24px;
+  }
+
+  .innerTable {
+    flex: 1 100%;
+    max-width: 70%;
+    margin: 20px auto 0px auto;
+    // border-top: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 0px;
+  }
+
+  .user-applications-inner-table {
+    // border: 1px solid rgba(0, 0, 0, 0.12);
+    // border-left: 1px solid rgba(0, 0, 0, 0.12);
+    // border-right: 1px solid rgba(0, 0, 0, 0.12);
+
+    tr:last-child {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+      td {
+        border: 0;
+      }
+    }
+
+    td {
+      padding: 10px 15px;
+    }
+  }
+
+  .company-name {
+    font-size: 24px;
+  }
+}
+
+.user-inv-cards {
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+}
+
+.user-inv-cards:last-child .user-dashboard-inv-header {
+  margin: 0;
+}
+
+.welcome-message {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+
+  .card-header {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .welcome-msg-body {
+    padding: 20px;
+
+    p {
+      line-height: 30px;
+      font-size: 18px;
+    }
+
+    .link-opportunity {
+      font-weight: 700;
+      color: #001061;
+      text-decoration: underline !important;
+    }
+  }
+}
+
+.no-desc-found {
+  min-height: 50px;
+}
+
+.user-heading-section .user-profile {
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 6px #0010614f;
+  flex: 1 48%;
+  max-width: 48%;
+  padding: 30px 0;
+}
+
+.counts-wrapper {
+  display: flex;
+  flex: 1 100%;
+  max-width: 100%;
+  justify-content: space-between;
+
+  .infoWidgetLabel {
+    font-size: 28px;
+  }
+}
+
+.user-amt-label {
+  display: inline-block;
+  min-width: 160px;
+  font-weight: 700;
+}
+
+.total-inv-amt * {
+  margin-left: -60px;
+}
+
+.my-investments {
+  margin-bottom: 10px !important;
+}
+
+marquee {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MuiDrawer-root.MuiDrawer-modal {
+  z-index: 100;
+}
+
+.DashboardToaster {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .inv-opportunity-details {
+    .about-inv-company {
+      position: relative;
+      .textPTag {
+        padding-bottom: 30px;
+        position: relative;
+        max-height: 250px;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: white;
+        -webkit-mask-image: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(black),
+          to(transparent)
+        );
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          black 0%,
+          transparent 100%
+        );
+        mask-image: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(black),
+          to(transparent)
+        );
+        mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+
+        .showMore {
+          display: none;
+          position: absolute;
+          bottom: 0;
+          left: -35%;
+          right: 40%;
+          background-color: red;
+        }
+      }
+    }
+  }
+  .user-dashboard-inv-header {
+    display: flex;
+    align-items: center;
+    // border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 0 0px 0;
+    flex-wrap: wrap;
+
+    .toggle-arrow {
+      margin: 0px 10px 0 0px;
+      cursor: pointer;
+
+      svg {
+        width: 45px;
+        height: 45px;
+      }
+    }
+
+    .company-info-in-table {
+      flex: 1;
+    }
+
+    // .total-inv-amt {
+    //     padding: 0 50px 0 100px;
+    //     border-right: 1px solid rgba(0, 0, 0, 0.12);
+    // }
+
+    // .total-current-amt {
+    //     padding: 0 0px 0 50px;
+    // }
+
+    .total-inv-amt b,
+    .total-current-amt b {
+      font-size: 24px;
+    }
+
+    .innerTable {
+      flex: 1 100%;
+      max-width: 70%;
+      margin: 20px auto 0px auto;
+      // border-top: 1px solid rgba(0, 0, 0, 0.12);
+      padding: 0px;
+    }
+
+    .user-applications-inner-table {
+      // border: 1px solid rgba(0, 0, 0, 0.12);
+      // border-left: 1px solid rgba(0, 0, 0, 0.12);
+      // border-right: 1px solid rgba(0, 0, 0, 0.12);
+
+      tr:last-child {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+        td {
+          border: 0;
+        }
+      }
+
+      td {
+        padding: 10px 15px;
+      }
+    }
+
+    .company-name {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .user-dashboard-inv-header {
+    display: flex;
+    align-items: center;
+    // border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 0 0px 0;
+    flex-wrap: wrap;
+
+    .company-info-in-table {
+      display: flex;
+      gap: 10px;
+
+      .investment-in-table {
+        width: unset;
+        min-width: unset;
+        padding: 0;
+      }
+
+      .user-amt-label {
+        min-width: 125px;
+        padding-bottom: 5px;
+      }
+    }
+
+    .toggle-arrow {
+      margin: 0px 10px 0 0px;
+      cursor: pointer;
+
+      svg {
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .company-logo-in-table {
+      min-width: 100px;
+      margin-right: 10px !important;
+    }
+
+    .company-info-in-table {
+      flex: 1;
+    }
+
+    // .total-inv-amt {
+    //     padding: 0 50px 0 100px;
+    //     border-right: 1px solid rgba(0, 0, 0, 0.12);
+    // }
+
+    // .total-current-amt {
+    //     padding: 0 0px 0 50px;
+    // }
+
+    .total-inv-amt b,
+    .total-current-amt b {
+      font-size: 20px;
+    }
+
+    .innerTable {
+      flex: 1 100%;
+      max-width: 70%;
+      margin: 20px auto 0px auto;
+      // border-top: 1px solid rgba(0, 0, 0, 0.12);
+      padding: 0px;
+    }
+
+    .user-applications-inner-table {
+      // border: 1px solid rgba(0, 0, 0, 0.12);
+      // border-left: 1px solid rgba(0, 0, 0, 0.12);
+      // border-right: 1px solid rgba(0, 0, 0, 0.12);
+
+      tr:last-child {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+        td {
+          border: 0;
+        }
+      }
+
+      td {
+        padding: 10px 15px;
+      }
+    }
+
+    .company-name {
+      font-size: 20px;
+    }
+  }
+  .user-dashboard-inv-header {
+    .header {
+      max-width: 85vw;
+      .total-current-amt {
+        margin-left: 0px !important;
+      }
+      .total-inv-amt {
+        margin-right: 0px !important;
+      }
+    }
+
+    .investment-in-table,
+    .company-details-col {
+      width: 25vw;
+      // padding: 8px 15px;
+    }
+
+    .amount-in-table {
+      max-width: 20vw;
+      padding: 0;
+      flex: 1;
+      text-align: center;
+      margin-right: 0px;
+    }
+
+    .current-amt-in-table {
+      max-width: 20vw;
+      padding: 0;
+      flex: 1;
+      text-align: center;
+      margin: 20px !important;
+    }
+
+    .requested-data-in-table {
+      width: 18vw;
+    }
+  }
+  .progress-status-label span {
+    flex: 1 11.11%;
+    font-size: 12px;
+    width: 14.28%;
+    max-width: 14.28%;
+    text-align: center;
+  }
+
+  .right-panel-wrapper {
+    min-width: 50vw;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .user-dashboard-container,
+  .user-dashboard-content .left-panel {
+    max-width: 100%;
+  }
+
+  .investment-status-records .investment-progress-details {
+    margin: 0 0 40px 0;
+    min-width: 920px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .alert-snack-bar.MuiSnackbar-root{
+    width: 100%;
+  }
+  .inner-table-content {
+    height: auto;
+    min-height: 40px;
+  }
+  .no-desc-found {
+    min-height: auto;
+  }
+  .counts-wrapper {
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    .user-profile {
+      // max-width: 130px;
+      min-width: 70%;
+    }
+
+    .infoWidgetLabel {
+      // font-size: 24px;
+      // display: none !important;
+    }
+
+    .infoWidgetValue {
+      // font-size: 16px;
+      // display: none !important;
+    }
+
+  }
+
+  .padding-right-0 {
+    padding-right: 0%;
+    padding-left: 30px;
+  }
+
+  .my-investments {
+    margin-top: 10px !important;
+  }
+
+  .inv-opportunity-details {
+    .about-inv-company {
+      position: relative;
+      .textPTag {
+        position: relative;
+        max-height: 180px;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: white;
+        -webkit-mask-image: unset;
+        -webkit-mask-image: unset;
+        mask-image: unset;
+        mask-image: unset;
+        padding-bottom: 0 !important;
+
+        .showMore {
+        }
+      }
+    }
+  }
+
+  .right-panel-wrapper {
+    min-width: 90vw;
+    max-width: unset;
+  }
+
+  .inner-table-header > div {
+    font-weight: 700;
+    font-size: 14px;
+    height: 20px;
+  }
+  .user-dashboard-inv-header {
+    .investment-in-table,
+    .amount-in-table,
+    .current-amt-in-table {
+      width: 25vw;
+      padding: 0px 0px;
+      width: 200px;
+      padding: 0px 0px;
+      min-width: 200px;
+      flex: 1 200px;
+      max-width: 200px;
+      margin: 0 !important;
+    }
+  }
+  .user-dashboard-inv-header {
+    display: flex;
+    align-items: center;
+    // border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin: 0 0 0px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .company-info-in-table {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: center;
+      max-width: unset;
+      flex-wrap: wrap;
+
+      .investment-in-table {
+        width: unset;
+        min-width: unset;
+        padding: 0;
+        margin: 0 !important;
+      }
+
+      .user-amt-label {
+        min-width: 125px;
+        padding-bottom: 5px;
+      }
+    }
+
+    .toggle-arrow {
+      margin: 0px 10px 0 0px;
+      cursor: pointer;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .company-logo-in-table {
+      min-width: 100px;
+      margin-right: 10px !important;
+      width: 60px;
+      min-width: 60px;
+      height: 60px;
+    }
+
+    .company-info-in-table {
+      flex: 1;
+    }
+
+    // .total-inv-amt {
+    //     padding: 0 50px 0 100px;
+    //     border-right: 1px solid rgba(0, 0, 0, 0.12);
+    // }
+
+    // .total-current-amt {
+    //     padding: 0 0px 0 50px;
+    // }
+
+    .total-inv-amt b,
+    .total-current-amt b {
+      font-size: 16px;
+    }
+    .total-inv-amt {
+      width: auto;
+      min-width: 50%;
+      max-width: 50%;
+      margin: 0 !important;
+    }
+    .total-current-amt {
+      max-width: unset;
+      width: auto;
+      min-width: 40%;
+      max-width: 40%;
+      margin: 0 !important;
+    }
+
+    .innerTable {
+      flex: 1 100%;
+      max-width: 95%;
+      margin: 20px auto 0px auto;
+      // border-top: 1px solid rgba(0, 0, 0, 0.12);
+      padding: 0px;
+    }
+
+    .user-applications-inner-table {
+      // border: 1px solid rgba(0, 0, 0, 0.12);
+      // border-left: 1px solid rgba(0, 0, 0, 0.12);
+      // border-right: 1px solid rgba(0, 0, 0, 0.12);
+      overflow: auto;
+
+      > div {
+        min-width: 600px;
+      }
+      tr:last-child {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+        td {
+          border: 0;
+        }
+      }
+
+      td {
+        padding: 10px 15px;
+      }
+    }
+
+    .company-name {
+      font-size: 16px;
+    }
+  }
+  .user-dashboard-wrapper .company-info-in-table .company-logo-in-table {
+    margin-right: 35px;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 0px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+  }
+
+  .investment-status-records .investment-progress-details {
+    min-width: 945px !important;
+    max-width: 945px !important;
+  }
+  .progess-bar-wrapper .MuiLinearProgress-root,
+  .progess-bar-wrapper .progress-bar-segments {
+    min-width: 900px;
+    max-width: 900px;
+  }
+
+  .progress-status-label span,
+  .progess-bar-wrapper .progress-bar-segments span {
+    flex: 1 100px;
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+  }
+  .container-padding {
+    padding-left: 10px !important;
+  }
+
+  .user-dashboard-content {
+  
+    .heading-section {
+      padding: 25px 0 15px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+  .right-panel-wrapper {
+    min-width: 70vw;
+  }
+
+  .user-dashboard-inv-header {
+    padding-right: 10px;
+  }
+
+  .investment-in-table {
+    align-items: flex-start !important;
+    flex: 1 25%;
+  }
+
+  .user-dashboard-inv-header .total-current-amt {
+    width: 132px;
+    min-width: 132px;
+    max-width: 132px;
+}
+
+  .user-dashboard-inv-header .company-info-in-table {
+    justify-content: space-between;
+  }
+
+
+  .user-dashboard-inv-header .company-info-in-table .user-amt-label{
+    min-width: auto;
+  }
+  .total-inv-amt *{
+    margin-left: 0;
+  }
+    .user-dashboard-inv-header .investment-in-table,
+    .user-dashboard-inv-header .amount-in-table,
+    .user-dashboard-inv-header .current-amt-in-table {
+      flex: 1 auto;
+      max-width: unset;
+    }
+
+    .user-dashboard-inv-header .company-info-in-table .investment-in-table {
+      width: unset;
+      min-width: unset;
+      max-width: 53%;
+    }
+
+    .user-dashboard-inv-header .total-current-amt{
+      width: 125px;
+      min-width: 125px;
+      max-width: 125px;
+      flex: 1 125px;
+    }
+
+    .user-dashboard-inv-header .total-inv-amt {
+      width: 130px;
+      min-width: 130px;
+      flex: 1 130px;
+      margin: 0 !important;
+      max-width: 130px;
+  
+    }
+}

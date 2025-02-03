@@ -1,0 +1,70 @@
+// .page-logo{
+//     margin-bottom: 20px;
+// }
+// .signup-wrapper {
+//     background-color: rgb(243, 244, 246);
+//     height: 100vh;
+//     display: flex;
+//     -webkit-box-align: center;
+//     align-items: center;
+//     -webkit-box-pack: center;
+//     justify-content: center;
+
+//     .signup-cover-img {
+//         background: url('../../assets/login-cover.png') no-repeat;
+//         background-size: cover;
+//         background-position: center;
+//         border-radius: 0 10px 10px 0;
+//         width: 35%;
+//     }
+
+//     .signup-form-block {
+//         flex-grow: 1;
+//     }
+
+//     .signup-form-wrapper {
+//         background-color: #ffffff;
+//         width: 1200px;
+//         border-radius: 8px;
+//         box-shadow: 0px 6px 18px rgba(0, 0, 0, .06);
+//         display: flex;
+//         justify-content: space-between;
+//         .signup-form-block {
+//             padding: 48px 60px;
+//         }
+//     }
+// }
+
+.view-password-icon {
+    width: 19px !important;
+    height: 19px !important;
+    margin: 0 0 0 -7px;
+}
+
+.password-row .MuiOutlinedInput-root {
+    padding-right: 0;
+}
+
+.password-message-ul{
+    margin-left: 20px;
+}
+
+@media(max-width: 767px) {
+    .formBoxSignup{
+        .MuiStack-root {
+            flex-wrap: wrap;
+        }
+        .MuiFormControl-root {
+            min-width: 100% !important;
+            max-width: 100% !important;
+            margin: 0 0 20px 0 !important;
+        }
+
+
+        .auto-complete-field {
+            width: 100% !important;
+        }
+        
+
+    }
+}

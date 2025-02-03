@@ -1,0 +1,19 @@
+.customSelectError {
+    color: #d32f2f;
+    font-size: 0.75rem !important;
+    margin: 5px 0 0 10px !important;
+}
+
+.default-react-select {
+    position: relative;
+
+    label {
+        position: absolute;
+        top: -8px;
+        left: 13px;
+        z-index: 1;
+        font-size: 14px !important;
+        letter-spacing: 0.16884px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+}

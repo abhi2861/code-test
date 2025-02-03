@@ -1,0 +1,78 @@
+// @import '../node_modules/slick-carousel/slick/slick.css';
+// @import '../node_modules/slick-carousel/slick/slick-theme.css';
+@import '../src/colors.scss';
+
+/* over all portal scroll */
+
+div::-webkit-scrollbar,
+::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+    background-color: transparent;
+}
+
+div::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+div::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    /* Adjust the border-radius as desired */
+    transition: background-color 0.3s;
+}
+
+div::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Force the scrollbar to be always visible */
+div::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:vertical {
+    min-height: 8vh;
+}
+
+/* Force the scrollbar to be always visible when hovering over it */
+div::-webkit-scrollbar-thumb:hover:vertical,
+::-webkit-scrollbar-thumb:hover:vertical {
+    min-height: 8vh;
+}
+
+/* Force the horizontal scrollbar to be always visible */
+div::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:horizontal {
+    min-width: 20px;
+}
+
+/* Force the scrollbar to be always visible when hovering over it */
+div::-webkit-scrollbar-thumb:hover:horizontal,
+::-webkit-scrollbar-thumb:hover:horizontal {
+    min-width: 20px;
+}
+
+/* over all portal scroll ends */
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

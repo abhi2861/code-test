@@ -1,0 +1,491 @@
+.documents-storage-wrapper {
+  min-height: calc(100vh - 73px);
+}
+
+.user-list-tabs {
+  align-items: center !important;
+  border-right: 1px solid #d9d9d9;
+
+  .MuiTabs-flexContainer > button {
+    align-items: flex-start !important;
+    padding-left: 30px;
+  }
+
+  .userSearchBox {
+    margin: 0 10px;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.documents-storage-wrapper {
+  .active-tab {
+    display: none;
+  }
+
+  .inactive-tab {
+    display: block;
+  }
+
+  .Mui-selected {
+    background-color: #001061 !important;
+
+    .active-tab {
+      display: block;
+    }
+
+    .inactive-tab {
+      display: none;
+    }
+  }
+
+  .tab-title {
+    margin-left: 10px;
+  }
+}
+
+.folders-serials > div {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 25%) !important;
+}
+
+.container-padding {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.documents-header-section {
+  border-bottom: 1px solid #d9d9d9;
+
+  > div {
+    padding: 10px 0px;
+  }
+
+  .breadcrumb-container {
+    // background-color: rgba(0, 16, 97, 73%) !important;
+    // color: white;
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    // font-weight: bold;
+
+    img {
+      width: 9px;
+      margin: 2px 5px 0 5px;
+    }
+  }
+
+  .upload-action-btn {
+    height: 36px;
+    // border-right: 0 !important;
+    border-radius: 5px !important;
+    background-color: transparent !important;
+    color: #001061 !important;
+    min-width: 170px;
+  }
+
+  .upload-submit-btn {
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+.selected-username {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.email-in-userlist {
+  font-size: 14px !important;
+  margin-top: 5px;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.path-position {
+  align-items: center;
+  display: flex;
+  // display: none;
+}
+
+.folderNamePath {
+  // display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  // height: 26px;
+  overflow: hidden;
+  // min-width: 103px;
+  max-width: 400px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.subFolderNamePath {
+  // display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  // height: 26px;
+  overflow: hidden;
+  // min-width: 103px;
+  max-width: 400px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.select-user-text {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .folder-Path-View {
+    flex: 1 auto;
+    max-width: unset;
+    min-width: auto;
+    justify-content: space-between;
+    margin-right: 20px;
+
+    .breadcrumb-container {
+      padding-left: 0 !important;
+    }
+  }
+  .upload-doc-btn {
+    flex: 0 120px;
+    max-width: 120px;
+    margin-right: 20px !important;
+  }
+  .documents-header-section {
+    flex-wrap: wrap;
+    .user-list-tabs {
+      flex: 1 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+  }
+  .upload-company-profile .upload-file-wrap {
+    min-width: auto;
+    max-width: unset;
+  }
+  .warning-message {
+    margin-top: 15px;
+  }
+  .documents-header-section .upload-company-profile {
+    margin: 0 10px 0 0;
+  }
+  .documents-header-section {
+    .admin-document-margin {
+      margin: 0 0 0 5px !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  div.admin-documents-storage-wrapper {
+    .upload-doc-file {
+      justify-content: flex-end !important;
+    }
+    .admin-document-margin * {
+      font-size: 14px !important;
+    }
+ 
+    .documents-header-section {
+      flex-direction: column;
+    }
+    .select-user-text {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 20px 0 2px 15px;
+    }
+    div.admin-document-margin {
+      border-top: 1px solid #D9D9D9;
+      padding: 6px 15px 10px 15px !important;
+      margin: 10px 0 0 0 !important;
+
+
+      position: relative;
+      order: 1;
+      min-height: 60px;
+      .add-folder-doc {
+        position: absolute;
+        bottom: calc(100% + 24px);
+        left: -5px;
+      }
+    }
+    .documents-storage-wrapper {
+      .user-list-tabs {
+        display: none !important;
+      }
+    }
+  }
+
+  .folderMove-caption,
+  .moveOnClickOuter .moveOnClickInner p{
+    font-size: 14px !important;
+}
+.folderList-Icon{
+  height: 20px !important;
+  margin-right: 15px !important;
+}
+  .admin-documents-storage-wrapper .upload-file-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .folderMove-BigHead{
+    // width: 366px !important;
+  }
+  .path-position {
+    .breadcrumb-container {
+      padding-left: 0% !important;
+    }
+    // position: absolute;
+    // top: 90%;
+    // right: -270px;
+    min-width: 100%;
+    align-items: center;
+    display: flex;
+    p,
+    span {
+      min-width: max-content;
+      font-size: 14px !important;
+    }
+  }
+  .documents-header-section {
+    flex-direction: column;
+  }
+
+  .folder-Path-View {
+    position: relative;
+    button[class*="containedPrimary"] {
+      min-width: 90px;
+      // margin-left: 100px;
+      position: absolute;
+      top: 55px;
+      left: -20px;
+    }
+  }
+
+  .documents-header-section {
+    .breadcrumb-container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .user-list-tabs {
+      min-width: 100%;
+      max-width: 100%;
+      flex: 1 100%;
+      border: 0;
+    }
+    .folder-Path-View {
+      min-width: 0px;
+      max-width: 30%;
+      margin-right: 30px;
+      // flex: 1 200px;
+      position: relative;
+
+      .path-position {
+      }
+    }
+    .upload-doc-btn {
+      flex: 1 100%;
+      max-width: 100%;
+      margin-right: 20px !important;
+      // margin-right: 30px;
+      .upload-company-profile {
+        .upload-file-wrap {
+          gap: 0;
+          flex-direction: row;
+          justify-content: flex-end;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+
+  .documents-storage-wrapper {
+    flex-direction: column;
+    align-items: start;
+    .user-list-tabs {
+      min-width: 100%;
+      .MuiButtonBase-root {
+        min-width: 100%;
+      }
+    }
+  }
+
+  .folderViewBox {
+    .folder-grids {
+      position: relative;
+      .line-clamp-1 {
+        max-width: 100px;
+      }
+    }
+  }
+
+
+
+  .user-profile {
+    .infoWidgetValue {
+      font-size: 16px;
+    }
+    .infoWidgetLabel {
+      font-size: 18px;
+    }
+  }
+
+  .welcome-message {
+    .welcome-msg-body {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .my-investments {
+    margin-bottom: 0;
+  }
+  .documents-header-section > div {
+    // justify-content: space-between;
+  }
+  .documents-header-section .user-list-tabs ~ div {
+    margin: 0 15px !important;
+  }
+
+  .upload-file-wrap {
+    justify-content: flex-end !important;
+  }
+
+  .documents-header-section .upload-company-profile {
+    margin: 0 0px 0 0;
+  }
+}
+
+
+// custom folder list popup //
+
+.folderMove-popup{
+  min-height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+  // background-color: pink !important;
+
+  .folderMove-BigHead{
+      // position: fixed;
+      // width: 440px;
+      top: 20;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+
+      span{
+          height: auto;
+          width: 40px;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+      }
+
+  }
+
+  .folderMove-caption{
+      margin-bottom: 10px;
+  }
+
+  .folderMove-body{
+      width: 100%;
+      min-height: 100%;
+      margin-top: 30px;
+      // background-color: green !important;
+
+      .folderMove-MainList{
+          width: 100%;
+          height: 100%;
+          position: relative;
+          // background-color: red;
+
+          // .folderMove-Folders{
+          //     height: 100%;
+          //     width: 85%;
+          //     background-color: red;
+          //     position: absolute;
+          //     top: 0;
+          // }
+          .rootAccodion{
+              margin: 0 !important;
+          }
+          .folderMove-subFolders{
+              margin-bottom: 2px;
+              display: flex;
+              align-items: center;
+              padding: 0 16px;
+              min-height: 48px;
+              // max-width: 70%;
+              cursor: pointer;
+              border-radius: 2px;
+              // box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+          }
+
+          .noSubFolder{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              p{
+                  font-size: 15px;
+              }
+          }
+      }
+  }
+}
+
+.moveOnClickOuter{
+  display: flex;
+  width: 100%;
+  .moveOnClickInner{
+      // background-color: red;
+      width: 85%;
+      padding: 20px 15px;
+
+  }
+  .folderMove-pannel{
+      // background-color: green;
+      width: 15%;
+  }
+}
+
+.documentCross{
+  height: 16px;
+}
+
+.mobile-document-view {
+  display: none;
+}
+
+@media(max-width: 767px) {
+  .folderViewStructure {
+    .rootAccodion {
+      padding-left: 25px !important;
+    }
+  }
+
+  .folderMove-popup .folderMove-body {
+    margin-top: -10px;
+  }
+
+  .search-user-docs {
+    display: none !important;
+  }
+
+  .mobile-document-view {
+    display: block;
+  }
+}

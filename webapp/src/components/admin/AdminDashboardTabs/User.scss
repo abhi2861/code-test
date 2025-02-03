@@ -1,0 +1,78 @@
+.email-modal-wrapper {
+  width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  overflow: hidden;
+
+  .sendMailHeading {
+    height: 60px;
+    // width: 100%;
+    background-color: #001061;
+    margin: -20px -20px 30px -20px;
+    padding: 20px;
+    color: white;
+  }
+
+  .emailFormStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .ql-toolbar {
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    .ql-container {
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+
+  .sendEmail {
+    margin-right: 10px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .cancleEmail {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .emailBodyStyle {
+    height: 100px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .emailBodyStyle {
+    height: auto !important;
+    min-height: 150px !important;
+    margin-bottom: 0px !important;
+    .ql-container {
+      min-height: 150px !important;
+    }
+  }
+
+  .sendEmail,
+  .cancleEmail {
+    height: auto !important;
+    font-size: 14px !important;
+  }
+}
+.name-text {
+  text-transform: capitalize;
+  width: 12vw;
+}
+.email-text {
+  text-wrap: wrap;
+  word-break: break-all;
+  width: 12vw;
+}
+.success-color {
+  color: green;
+}
+.pending-color {
+  color: orange;
+}

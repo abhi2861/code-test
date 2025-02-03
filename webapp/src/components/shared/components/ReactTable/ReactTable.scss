@@ -1,0 +1,254 @@
+table {
+    display: table;
+    margin-bottom: 0;
+    width: 100%;
+    border-spacing: 0;
+    // table-layout: fixed;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 12%);
+    text-align: left;
+    padding: 5px 15px;
+}
+
+th {
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+}
+
+.react-table-wrapper {
+    border: 1px solid rgba(0, 0, 0, 12%);
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+}
+
+.react-table-header {
+    padding: 8px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 12%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.react-table-filters {
+    display: flex;
+    align-items: center;
+}
+
+.react-table-filters input {
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 12%);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px;
+    outline: none;
+}
+
+.react-table-filters button {
+    padding: 0;
+    margin: 0;
+}
+
+.react-table-filters>div {
+    margin: 0 0 0 10px;
+}
+
+.react-table-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.react-table-pagination button:disabled,
+.react-table-pagination button:hover:disabled {
+    background-color: rgba(217, 217, 217, 40%) !important;
+}
+
+.react-table-pagination button {
+    min-width: auto;
+    background-color: white !important;
+    padding: 5px 10px 2px 14px !important;
+    margin: 0 !important;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.react-table-pagination button svg {
+    width: 15px;
+    color: #001061;
+}
+
+.react-table-pagination button:disabled svg {
+    opacity: 0.1;
+    color: #000 !important;
+}
+
+.react-table-pagination button:hover {
+    background-color: #001061 !important;
+}
+
+.react-table-pagination button:hover svg {
+    color: white;
+}
+
+.react-table-pagination .current-page-count {
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+    color: #001061;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-pagination-content {
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+
+.table-pagination-content>button,
+.table-pagination-content>span {
+    border-right: 1px solid #D9D9D9 !important;
+}
+
+.pagination-next {
+    border-right: 0 !important;
+}
+
+.pagination-prev svg {
+    margin: 0 -3px 0 0;
+}
+
+.pagination-next svg {
+    margin: 0 0 0 -3px;
+}
+
+.filter-enabled {
+    color: #001061;
+}
+
+.table-scroller {
+    // max-height: 85vh;
+    // overflow: auto;
+}
+
+.hideArrow {
+    display: none;
+}
+
+.default-table {
+
+    th,
+    td {
+        text-align: center;
+    }
+
+    td:first-child,
+    th:first-child {
+        text-align: left;
+    }
+    
+    td:last-child,
+    th:last-child {
+        width: 85px;
+        text-align: center;
+    }
+
+    .innerTable {
+        td:last-child,
+        th:last-child {
+            width: auto;
+            text-align: center;
+        }
+    }
+
+    
+
+    th.text-left,
+    td.text-left {
+        text-align: left !important;
+    }
+    
+    th.text-right,
+    td.text-right {
+        text-align: right !important;
+    }
+}
+
+.expanded-table {
+
+    td:first-child,
+    th:first-child {
+        width: 20px;
+        max-width: 20px;
+    }
+
+    .innerTable {
+        td:first-child,
+        th:first-child {
+            width: auto;
+            max-width: unset;
+        }
+
+        table {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.default-table td.innerTable {
+    padding: 0px 4%;
+
+    table {
+
+        th:last-child,
+        td:last-child {
+            // border-right: 1px solid #e0e0e0;
+            height: 70px;
+        }
+        th:first-child,
+        td:first-child {
+            // border-left: 1px solid #e0e0e0;
+        }
+    }
+}
+
+.showArrow {
+    display: inline-block;
+    margin: 0 0 0 -4px;
+}
+
+.react-table-title h4 {
+    font-size: 20px;
+}
+
+.table-scroller {
+    overflow: auto;
+}
+
+@media screen and (max-width: 991px){
+    .react-table-filters input{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .react-table-filters input {
+        border: 1px solid rgba(0, 0, 0, 12%);
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 8px;
+        outline: none;
+        width: 140px;
+    }
+}

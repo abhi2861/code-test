@@ -1,0 +1,364 @@
+.inv-opportunity-details .company-logo {
+    margin: 0 60px 0 0;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.placeholder-logo {
+    background-color: #BF974E;
+    color: white;
+    width: 52px;
+    display: inline-block;
+    padding-left: 18px;
+    font-size: 26px;
+    border-radius: 6px;
+}
+
+.opportunity-details .company-default-logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.opportunity-details h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.opportunity-company {
+    display: inline-block;
+    margin: 0 4px 0 0;
+    // padding-top: 15px
+}
+
+.oppurtunity-status {
+    margin: 0 18px 0 0;
+}
+
+.about-company-card h3,
+.servey-details h3 {
+    margin: 0 0 10px 0;
+    text-transform: capitalize;
+}
+
+// .about-company-card p,
+.servey-details p {
+    margin: 0 0 13px 0;
+}
+
+.download-prospectus {
+    margin: 0 0 13px 0;
+}
+
+.date-grid-cards {
+    padding: 10px 15px !important;
+    border-radius: 5px;
+    margin-right: 15px !important;
+}
+
+.p-0.date-grid-cards {
+    padding: 0 !important;
+}
+
+.opportunity-details-grid {
+    margin: 0 0 25px 0;
+
+    .no-survey {
+        margin-top: 15px;
+    }
+}
+
+.appliedInDescription{
+    margin: 4px 0 0 0 !important;
+}
+
+.opportunity-details-grid:last-child {
+    margin-bottom: 0;
+}
+
+.bulletin-card {
+    // margin: 0 0 25px 0;
+}
+
+.bulletin-card>div {
+    padding: 10px;
+}
+
+.bulletin-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 25vw;
+    max-width: 25vw;
+    border-left: 1px solid #d9d9d9;
+
+    // padding: 10px;
+    h4 {
+        margin: 0 0 10px 0;
+    }
+}
+
+.bulletin-box {
+    width: 49%;
+}
+
+.bulletin-box.single-bulletin-box {
+    width: 100%;
+}
+
+.bulletin-box.bulletin-box-single {
+    width: 100%;
+    word-break: break-word;
+}
+
+.bulletin-headingbox {
+    .source-link {
+        text-decoration: underline !important;
+        color: #001061 !important;
+    }
+}
+
+.bulletin-box .bulletin-headingbox .date-containt {
+    align-self: center;
+    margin: 5px 0 0 0;
+}
+
+
+.survey-card-container {
+
+    .interest-btn {
+        // margin: 3px 55px 0 0 !important;
+        flex: 1 !important;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.inv-action-grid {
+    max-width: unset !important;
+    flex: 0 auto !important;
+    margin: 3px 0 0 0 !important;
+    align-self: flex-start !important;
+}
+
+.inv-action-grid button {
+    width: 153px;
+}
+
+.survey-amt-disabled .date-grid-cards {
+    flex: 1 57%;
+    max-width: 57%;
+}
+
+.info-cards .info-label {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+}
+
+.info-cards .info-value {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bulletin-subject {
+    margin: 0 0 4px 0;
+    display: block;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bulletin-subject:hover {
+    text-decoration: underline !important;
+}
+
+.company-invetment-item {
+    padding: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+        border-bottom: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+}
+
+.opportunity-container {
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+.survey-cards-wrapper {
+    margin-bottom: 40px;
+}
+
+.bulletin-message {
+    min-width: 100%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.survey-name {
+    width: 65%
+}
+
+.survey-form-card:last-child {
+    margin-bottom: 0 !important;
+}
+
+.show-more-btn {
+    font-size: 16px !important;
+    margin: -5px 0 0 0 !important;
+}
+
+.BulletInArrowOutwardIcon {
+    display: inline-flex;
+
+    img {
+        width: 18px;
+        margin-left: 5px;
+    }
+}
+
+.warning-message {
+    margin-left: -2px;
+
+    .report-icon {
+        color: #001061;
+    }
+
+    .message-text {
+        width: 48%;
+    }
+}
+
+.investment-range {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .opportunity-details{
+        .company-default-logo {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            color: white;
+        }
+        .companyDetailTitle{
+            // height: 150px;
+            display: flex;
+            align-items: end;
+        }
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .separateBox{
+        flex-direction: column;
+
+        .bulletin-container{
+            max-width: none !important;;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .survey-amt-disabled .date-grid-cards {
+        flex: 1 50%;
+        max-width: 50%;
+    }
+    .inv-action-grid {
+        flex: 1 !important;
+    }
+    
+    .inv-action-grid button {
+        width: 100%;
+    }
+    .opportunity-details-grid {
+        .survey-card-container {
+            margin-top: 0 !important;
+        }
+    }
+
+    .opportunity-list-wrapper .opportunity-content-apply .applied-pill {
+        margin-top: 0 !important;
+        margin-bottom: 5px !important;
+    }
+
+    .opportunity-container {
+        margin: 30px 0;
+        .inv-opp-applied-pill {
+            margin-left: 0 !important;
+        }
+        .min-amt-grid {
+            margin-top: 15px !important;
+            flex-wrap: wrap !important;
+
+        }
+        .inv-opp-applied-pill {
+            min-width: 100%;
+            max-width: 100%;
+            flex: 1 100%;
+        }
+    }
+    .survey-card-container {
+        gap: 20px;
+
+        .interest-btn {
+            // margin: 3px 55px 0 0 !important;
+            flex: 1 !important;
+            display: flex;
+            justify-content: center;
+    
+        }
+    }
+
+    .opportunity-details-grid{
+        .warning-message{
+            margin-top: 10px;
+        }
+    }
+
+    .title-container {
+        align-items: flex-start;
+        flex-direction: column;
+
+        .survey-name {
+            width: 100% !important;
+            margin-bottom: 10px !important;
+        }
+    }
+
+
+}

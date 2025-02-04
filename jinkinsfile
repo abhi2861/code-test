@@ -1,0 +1,71 @@
+pipeline {
+    agent any
+
+    tools {
+        nodejs 'Node 23'  
+    }
+
+    environment {
+        NODE_HOME = tool name: 'Node 23', type: 'nodejs'
+        PATH = "${NODE_HOME}/bin:${env.PATH}"
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git credentialsId: 'github-token', branch: 'main', url: 'https://github.com/abhi2861/code-test.git'
+            }
+        }
+
+        stage('Install Dependencies - server') {
+            steps {
+                dir('server') {
+                    sh 'npm install -f'
+                }
+            }
+        }
+
+        stage('Install Dependencies - webapp') {
+            steps {
+                dir('webapp') {
+                    sh 'npm install -f'
+                }
+            }
+        }
+
+        stage('Build Frontend') {
+            steps {
+                dir('webapp') {
+                    sh 'npm run build'
+                }
+            }
+        }
+
+        stage('Code Analysis with SonarQube') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh '''
+                       sonar-scanner \
+                      -Dsonar.projectKey=ec2-test \
+                      -Dsonar.sources=. \
+                      -Dsonar.host.url=http://54.242.240.21:9000 \
+                      -Dsonar.login=2bca2b6379ab3661c504d83c324264aafa4335cd
+                    '''
+                }
+            }
+        }
+
+        stage('Quality Gate Check') {
+            steps {
+                script {
+                    timeout(time: 5, unit: 'MINUTES') {
+                        def qg = waitForQualityGate()
+                        if (qg.status != 'OK') {
+                            error "❌ Quality Gate failed: ${qg.status}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
